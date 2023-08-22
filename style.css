@@ -1,0 +1,264 @@
+
+.nav{
+    display: flex;
+    margin-top: 20px;
+}
+.logo img{
+    margin-left: 80px;
+    height: 60px;
+    width: 200px;
+}
+.items{
+    position: absolute;
+    right: 180px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.items li{
+    margin-left: 30px;
+    list-style-type: none;
+}
+.items li a{
+    color: black;
+    text-decoration: none;
+}
+.items li a:hover{
+    color:#6B1297;
+    text-decoration: underline;
+    transition: 0.2s ease;
+}
+.data-science{
+    display: flex;
+    flex-direction: row;
+    background-color: #b87ed536;
+    height: 500px;
+}
+.content{
+    margin-top: 6%;
+    margin-left: 100px;
+    padding: 5px 15px 10px 15px;
+    max-width: 600px ;
+}
+.content-img{
+    margin-top: 3%;
+}
+.content-img img{
+    height: 400px;
+    opacity: 0.5;
+}
+.ds{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color:#6B1297;
+}
+.luminar{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    line-height: 15px;
+    color:#6B1297;
+}
+.det{
+font-family: sans-serif;
+font-size: 15px;
+font-weight: 600;    
+
+}
+.btn{
+    height: 45px;
+    width: 150px;
+    background-color: #6D1D8E;
+    color: white;
+    border-radius: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    margin: 1px 18px 1px 0;
+    border: none;
+    letter-spacing: 1px;
+}
+.placement{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    width: 40%;
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 58.5px;
+    text-align: center;
+    margin-top: 10px;
+    color: #6D1D8E;
+}
+.btm{
+    height: 82.6px;
+    width: 630px;
+    padding: 25px 0 0 0;
+    margin-top: 10px;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    color: gray;
+}
+.search{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.search-box{
+    font-size: 25px;
+    line-height: 62.5px;
+    height: 50px;
+    width: 78vw;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+.search-icon{
+    font-size: 26px;
+}
+.courses{
+    margin-top: 30px;
+    display: flex;
+    gap: 170px;
+    flex-wrap: wrap;
+}
+.card-title{
+    color:#6B1297;
+}
+.style-card{
+    padding-top: 10px;
+}
+.style-card b{
+    color:#6B1297;
+}
+.view-btn{
+ margin-left: 20%;
+ line-height: 2;
+ font-weight: 500;
+ background-color: white;
+ border: 1px solid #6B1297;
+ color:#6B1297;
+
+}
+.view-btn:hover{
+    background-color: #6B1297;
+    color: white;
+    border: 1px solid #6B1297;
+}
+.icon{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: auto;
+}
+.icon:hover{
+    background-color: #6B1297;
+    color: white;
+}
+.icon-img{
+    font-size: 70px;
+    line-height: 1.5;
+    margin-left: 16px;
+    margin-top: 10px;  
+    color:#6B1297  
+}
+.icon-img:hover{
+    color: white;
+}
+.whyLuminar{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+.why-pic img{
+    height: 700px;
+    width: 700px;
+}
+.why-det h1{
+    text-align: center;
+    color: #6B1297;
+    font-weight: 700;
+}
+.why-det p{
+    margin-top: 35px;
+}
+.why-list{
+    margin-top: 40px;
+    line-height: 2.5;
+    list-style-type: circle;
+}
+.img-ss img{
+    height: 560px;
+    width: 1473.6px;
+    margin-bottom: 30px;
+}
+.footer1{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo img{
+    height: 70px;
+    width: 180px;
+    margin-left: 15px;
+}
+.social-links{
+    display: flex;
+
+}
+.social-links li{
+    list-style-type: none;
+    padding: 0 20px 0 0;
+}
+.social-links li:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.courses-f, .contactus-f, .useful-links{
+    max-width: 280px;
+    padding: 5px;
+}
+.courses-f h5,.contactus-f h5, .useful-links h5{
+    text-align: center;
+}
+.h-line{
+    border-bottom: 1px solid gray;
+    width: 240px;
+    margin-left: 16px;
+}
+.co-f-list,.contact-list, .link-list{
+    font-size: 14px;
+}
+.co-f-list li, .contact-list li, .link-list li{
+    padding: 10px 5px 10px 0;
+    list-style-type: none ;
+
+}
+.co-f-list li:hover{
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+.useful-links li:hover{
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+.contact-list li:hover{
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+.footer2{
+    text-align: center;
+    height: 90px;
+    line-height: 2.4;
+    background-color: #cda1e241;
+}
